@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: "Young Serif";
+    src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+body {
+    background-color: #f3e5d8;
+}
+
+.omlet {
+    background-color: white;
+    width: 50%;
+    padding: 2.5%;
+    margin: 5% auto;
+    border-radius: 20px;
+    font-family: "Outfit";
+}
+.prep{
+    color: blueviolet;
+    border-radius: 20px;
+
+}
+.img img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-family: "Outfit";
+}
+
+p {
+    font-family: "Young Serif";
+    font-weight: normal;
+    color: burlywood;
+}
+
+ h3 {
+    font-family: "Outfit";
+    color: purple;
+}
+h2 {
+    font-family: "Outfit";
+    color: burlywood;
+}
+
+
+.col, .col2 {
+    color: burlywood;
+}
+.ingra{
+    color: brown;
+}
+
+.cal{
+    color: brown;
+}
+
+.nutrition-facts {
+    width: 500px;
+    border-collapse: collapse;
+  }
+
+  .nutrition-facts th, .nutrition-facts td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  .nutrition-facts th {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+
+  .nutrition-facts td {
+    border-bottom: 1px solid #eee;
+  }
+
+  .nutrition-facts .label {
+    font-weight: bold;
+  }
+
+  .nutrition-facts .value {
+    text-align: right;
+    color: brown;
+  }
